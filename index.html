@@ -3,7 +3,7 @@
 Created using JS Bin
 http://bin.webduino.io
 
-Copyright (c) 2020 by anonymous (http://bin.webduino.io/tequl/1/edit)
+Copyright (c) 2020 by anonymous (http://bin.webduino.io/nunud/1/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
@@ -22,6 +22,11 @@ Released under the MIT license: http://jsbin.mit-license.org
   <script src="https://bit.webduino.io/blockly/dist/lib/runtime.min.js"></script>
   <script src="https://bit.webduino.io/blockly/components/webduino-bit-module-led-matrix/BitLedMatrix-blockly.js"></script>
   <script src="https://bit.webduino.io/blockly/components/webduino-bit-module-led-matrix/BitLedMatrix.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style id="jsbin-css">
 .db5 {
   font-size: 24px;
@@ -38,12 +43,12 @@ button:hover {
 
 <body>
   <div>
-      <h1>何帥的住宅</h1>
-    <button id="demo-area-05-btn1" class="db5">按鈕 1</button>
-    <button id="demo-area-05-btn2" class="db5">按鈕 2</button>
-    <button id="demo-area-05-btn3" class="db5">按鈕 3</button>
-    <button id="demo-area-05-btn4" class="db5">按鈕 4</button>
-</div>
+      <h1>顏色控制</h1>
+    <button class="btn btn-warning" id="demo-area-05-btn1" class="db5">黃色</button>
+    <button class="btn btn-danger" id="demo-area-05-btn2" class="db5">紅色</button>
+    <button class="btn btn-success" id="demo-area-05-btn3" class="db5">綠色</button>
+    <button class="btn btn-primary" id="demo-area-05-btn4" class="db5">藍色</button>
+  </div>
 <script id="jsbin-javascript">
 var matrix;
 
